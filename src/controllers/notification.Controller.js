@@ -1,4 +1,4 @@
-const Notification = require("../models/Notification.model");
+const Notification = require("../models/notification.model");
 const asyncHandler = require("../utils/asyncHandler");
 const AppError = require("../utils/appError");
 
