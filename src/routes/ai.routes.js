@@ -4,7 +4,7 @@ const { extractInvoiceData } =require("../services/ai.service.js");
 const protect =require("../middlewares/auth.middleware.js");
 const authorizeRoles = require("../middlewares/role.middleware");
 
-const { aiAssistant } = require("../controllers/aiAssistant.controller");
+const { aiAssistant } = require("../controllers/aiassistant.controller.js");
 
 const router = express.Router();
 
